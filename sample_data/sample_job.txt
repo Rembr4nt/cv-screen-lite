@@ -1,0 +1,30 @@
+AI Engineer (LLM Applications)
+
+Job Responsibility
+- Design and build LLM-powered agents and multi-step workflows with LangChain, LangGraph or a similar framework
+- Build retrieval-augmented generation (RAG) pipelines over company documents and keep their answer quality measurable
+- Develop semantic search and Text2SQL features on top of embeddings and the company's databases
+- Integrate LLM APIs (OpenAI, Azure OpenAI or similar) into production services, including streaming responses to the web app
+- Write and tune prompts for answer quality, latency and cost
+- Work with backend, data and product teams to ship, monitor and improve AI features
+
+Required (Must Have)
+- Strong Python programming skills
+- Hands-on experience with LangChain, LangGraph or a similar LLM framework
+- Experience building agent-based systems (tool calling, orchestration)
+- Experience building RAG pipelines on a vector database (e.g., Pinecone, FAISS, Weaviate, pgvector)
+- Experience integrating LLM APIs (e.g., OpenAI API, Azure OpenAI) into applications
+- Knowledge of embeddings, semantic search and Text2SQL
+- Prompt engineering and prompt optimization
+- Experience implementing streaming responses (SSE or WebSockets)
+
+Nice to Have
+- Multi-agent system design patterns
+- LLM evaluation (RAG evaluation, hallucination detection)
+- Fine-tuning or model adaptation (LoRA, adapters)
+- Document processing (PDF parsing, OCR, chunking strategies)
+- Data pipelines and ETL
+- Docker and containerized deployment
+- Cloud platforms, especially Azure
+- CI/CD and DevOps practices
+- Monitoring and observability for AI systems (latency, token usage, cost)

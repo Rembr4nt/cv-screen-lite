@@ -1,0 +1,31 @@
+[theme]
+font = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+baseRadius = "1rem"
+buttonRadius = "0.75rem"
+showSidebarBorder = true
+
+[theme.light]
+primaryColor = "#476af5"
+backgroundColor = "#f9f9fd"
+secondaryBackgroundColor = "#f0f0f7"
+textColor = "#21212c"
+borderColor = "#e2e2ee"
+
+[theme.light.sidebar]
+backgroundColor = "#ffffff"
+
+[theme.dark]
+primaryColor = "#5c7bfa"
+backgroundColor = "#09090b"
+secondaryBackgroundColor = "#1d1d20"
+textColor = "#f4f4f6"
+borderColor = "#26262b"
+
+[theme.dark.sidebar]
+backgroundColor = "#131316"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"

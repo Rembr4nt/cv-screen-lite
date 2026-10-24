@@ -1,0 +1,9 @@
+streamlit>=1.56
+altair>=6
+plotly>=6
+pandas
+anthropic>=0.96
+openai>=1.0
+python-dotenv
+pypdf
+python-docx
