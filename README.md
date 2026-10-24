@@ -67,7 +67,7 @@ from the CV, and code checks each quote against the CV text.
 Requires Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/ClintonEastwood/cv-screen-lite.git
+git clone https://github.com/Rembr4nt/cv-screen-lite.git
 cd cv-screen-lite
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
