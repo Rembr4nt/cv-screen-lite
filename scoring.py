@@ -69,7 +69,7 @@ def read_uploads(files):
             text = file_text(name, data).strip()
         except Exception as e:  # a broken file must not stop the batch
             return skipped.append((name, f"could not be read ({type(e).__name__})"))
-        if len(text) < 100:  # ponytail: no OCR, so scanned PDFs are skipped
+        if len(text) < 100:  # no OCR, so scanned PDFs are skipped
             return skipped.append((name, "no text found, maybe a scanned image"))
         cvs.append({"file": name, "text": text, "data": data})
 

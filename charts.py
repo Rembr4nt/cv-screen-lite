@@ -63,7 +63,7 @@ def experience_scatter(people, P, height=320):
     keep = set(df.index) if len(df) <= 12 else set(df.nlargest(5, "Match").index)
     hi = max(5, int(df["x"].max()) + 2)
     # Names go above, below or right of their dot, wherever they hit no other name or dot; else the tooltip names them.
-    # ponytail: sizes in data units are tuned for the 320 px half-width card; other sizes may overlap a little.
+    # Sizes in data units are tuned for the 320 px half-width card; other sizes may overlap a little.
     cw, r = hi * 0.014, hi * 0.016  # one character's width and a dot's radius, in years
     boxes = [(x0, y0, r, 4.6) for x0, y0 in zip(df["x"], df["Match"])]  # (centre x, centre y, half width, half height)
     df["label"], df["spot"] = "", ""
